@@ -62,9 +62,6 @@ module TestCenter
         if @batch_count > 1 || @testables_count > 1
           current_batch = 1
           testable_tests.each_slice((testable_tests.length / @batch_count.to_f).round).to_a.each do |tests_batch|
-            if @testables_count > 1
-              output_directory = File.join(@output_directory, "results-#{testable}")
-            end
             FastlaneCore::UI.header("Starting test run on testable '#{testable}'")
             if @scan_options[:result_bundle]
               FastlaneCore::UI.message("Clearing out previous test_result bundles in #{output_directory}")

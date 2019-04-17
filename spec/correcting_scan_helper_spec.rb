@@ -155,7 +155,7 @@ describe TestCenter do
                   'AtomicBoyTests/AtomicBoyTests/testExample3',
                   'AtomicBoyTests/AtomicBoyTests/testExample4'
                 ],
-                output_directory: './results-AtomicBoyTests'
+                output_directory: '.'
               },
               1,
               @mock_reportnamer
@@ -172,7 +172,7 @@ describe TestCenter do
                   'AtomicBoyUITests/AtomicBoyUITests/testExample3',
                   'AtomicBoyUITests/AtomicBoyUITests/testExample4'
                 ],
-                output_directory: './results-AtomicBoyUITests'
+                output_directory: '.'
               },
               1,
               @mock_reportnamer
@@ -267,7 +267,7 @@ describe TestCenter do
                   'AtomicBoyTests/AtomicBoyTests/testExample1',
                   'AtomicBoyTests/AtomicBoyTests/testExample2'
                 ],
-                output_directory: './results-AtomicBoyTests'
+                output_directory: '.'
               },
               1,
               @mock_reportnamer
@@ -282,7 +282,7 @@ describe TestCenter do
                   'AtomicBoyTests/AtomicBoyTests/testExample3',
                   'AtomicBoyTests/AtomicBoyTests/testExample4'
                 ],
-                output_directory: './results-AtomicBoyTests'
+                output_directory: '.'
               },
               2,
               @mock_reportnamer
@@ -297,7 +297,7 @@ describe TestCenter do
                   'AtomicBoyUITests/AtomicBoyUITests/testExample1',
                   'AtomicBoyUITests/AtomicBoyUITests/testExample2'
                 ],
-                output_directory: './results-AtomicBoyUITests'
+                output_directory: '.'
               },
               1,
               @mock_reportnamer
@@ -312,7 +312,7 @@ describe TestCenter do
                   'AtomicBoyUITests/AtomicBoyUITests/testExample3',
                   'AtomicBoyUITests/AtomicBoyUITests/testExample4'
                 ],
-                output_directory: './results-AtomicBoyUITests'
+                output_directory: '.'
               },
               2,
               @mock_reportnamer
@@ -357,7 +357,7 @@ describe TestCenter do
                   'AtomicBoyTests/AtomicBoyTests/testExample1',
                   'AtomicBoyTests/AtomicBoyTests/testExample4'
                 ],
-                output_directory: './results-AtomicBoyTests'
+                output_directory: '.'
               },
               1,
               @mock_reportnamer
@@ -373,7 +373,7 @@ describe TestCenter do
                   'AtomicBoyUITests/AtomicBoyUITests/testExample2',
                   'AtomicBoyUITests/AtomicBoyUITests/testExample3'
                 ],
-                output_directory: './results-AtomicBoyUITests'
+                output_directory: '.'
               },
               1,
               @mock_reportnamer
@@ -471,7 +471,7 @@ describe TestCenter do
                 only_testing: [
                   'AtomicBoyTests/AtomicBoyTests/testExample1'
                 ],
-                output_directory: './results-AtomicBoyTests'
+                output_directory: '.'
               },
               1,
               @mock_reportnamer
@@ -484,7 +484,7 @@ describe TestCenter do
                 only_testing: [
                   'AtomicBoyTests/AtomicBoyTests/testExample4'
                 ],
-                output_directory: './results-AtomicBoyTests'
+                output_directory: '.'
               },
               2,
               @mock_reportnamer
@@ -499,7 +499,7 @@ describe TestCenter do
                   'AtomicBoyUITests/AtomicBoyUITests/testExample1',
                   'AtomicBoyUITests/AtomicBoyUITests/testExample2'
                 ],
-                output_directory: './results-AtomicBoyUITests'
+                output_directory: '.'
               },
               1,
               @mock_reportnamer
@@ -513,7 +513,7 @@ describe TestCenter do
                 only_testing: [
                   'AtomicBoyUITests/AtomicBoyUITests/testExample3'
                 ],
-                output_directory: './results-AtomicBoyUITests'
+                output_directory: '.'
               },
               2,
               @mock_reportnamer
