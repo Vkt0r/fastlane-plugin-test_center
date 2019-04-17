@@ -63,10 +63,10 @@ module TestCenter
           current_batch = 1
           testable_tests.each_slice((testable_tests.length / @batch_count.to_f).round).to_a.each do |tests_batch|
             FastlaneCore::UI.header("Starting test run on testable '#{testable}'")
-            if @scan_options[:result_bundle]
-              FastlaneCore::UI.message("Clearing out previous test_result bundles in #{output_directory}")
-              FileUtils.rm_rf(Dir.glob("#{output_directory}/*.test_result"))
-            end
+            # if @scan_options[:result_bundle]
+            #   FastlaneCore::UI.message("Clearing out previous test_result bundles in #{output_directory}")
+            #   FileUtils.rm_rf(Dir.glob("#{output_directory}/*.test_result"))
+            # end
 
             tests_passed = correcting_scan(
               {
