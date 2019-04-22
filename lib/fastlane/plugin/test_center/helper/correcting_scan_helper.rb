@@ -108,9 +108,9 @@ module TestCenter
           collate_json_reports(output_directory, reportnamer)
         end
 
-        if @scan_options[:result_bundle]
-          collate_test_result_bundles(output_directory, reportnamer)
-        end
+        # if @scan_options[:result_bundle]
+        #   collate_test_result_bundles(output_directory, reportnamer)
+        # end
       end
 
       def passed_test_count_from_summary(summary)
